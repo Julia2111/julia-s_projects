@@ -5,80 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Futura+PT:wght@400&display=swap"
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
+
     <title>Document</title>
   </head>
   <body>
     <div class="container">
       <div class="main-body">
-        <div class="main-body__top">
-          <div class="main-body__top__text">
-            <div class="main-body__top__text_main">Наши Цели</div>
-            <div class="main-body__top__text_p">
-              Первое универсальное платежное средство для онлайн гэмблинга.
+        <div class="main-body__group">
+          <div class="main-body__group__top">
+            <div class="main-body__group__top__text">Данные получателя</div>
+            <div class="main-body__group__top__ellipses">
+              <div class="main-body__group__top__ellipses__xx">
+                <input type="text" placeholder="Фамилия" />
+              </div>
+              <div class="main-body__group__top__ellipses__xx">
+                <input type="text" placeholder="Имя" />
+              </div>
+              <div class="main-body__group__top__ellipses__xx">
+                <input type="text" placeholder="Отчество" />
+              </div>
+              <div class="main-body__group__top__ellipses__xx">
+                <input type="number" placeholder="Номер телефона" />
+              </div>
+            </div>
+            <div class="pp">
+              По этому номеру телефона мы с вяжемся с вами для подтверждения
+              заказа
             </div>
           </div>
-          <div class="main-body__top__bottom">
-            <div class="block1">
-              <div class="block1__top__main">
-                <div class="block1__top">
-                  <p class="block1__top__text">1</p>
-                </div>
-              </div>
-              <div class="block1__text">
-                Уйти от банковской контролируемой системы
-              </div>
+          <div class="main-body__group__middle">
+            <div class="main-body__group__middle__input">
+              <input type="email" placeholder="E-mail" />
             </div>
-
-            <div class="block1">
-              <div class="block1__top__main">
-                <div class="block1__top">
-                  <p class="block1__top__text">2</p>
-                </div>
-              </div>
-
-              <div class="block1__text">Развитие собственного криптофонда</div>
+            <div class="pp__middple">
+              <p>
+                На эту почту вам придет письмо с составом заказа, а так же
+                трэк-номер для его отслеживания
+              </p>
             </div>
-
-            <div class="block1">
-              <div class="block1__top__main">
-                <div class="block1__top">
-                  <p class="block1__top__text">3</p>
-                </div>
-              </div>
-              <div class="block3__text">
-                Популяризация VIP-Coin, чтобы как можно больше людей узнали об
-                этом средстве платежа
-              </div>
-            </div>
-
-            <div class="block1">
-              <div class="block1__top__main">
-                <div class="block1__top">
-                  <p class="block1__top__text">4</p>
-                </div>
-              </div>
-              <div class="block4__text">
-                Создание универсальной валюты для пополнения счета на всех
-                гэмблинг-сайтах
-              </div>
+            <div class="main-body__group__middle__idk">
+              <input
+                type="checkbox"
+                name="messages"
+                id="main-body__group__middle__idk"
+                checked
+                aria-label="Подписаться на рассылку новинок и акций"
+              />
             </div>
           </div>
-        </div>
-        <div class="main-body__bottom">
-          <div class="main-body__bottom__container">
-            <img src="./img/Ellipse 2.png" alt="" class="new" />
-            <div class="main-body__bottom__texttt">
-              Нельзя купить до выхода на биржу. Можно только выиграть или
-              заработать
-            </div>
+          <div class="main-body__group__bottom">
+            <div class="main-body__group__top__text">Способ оплаты</div>
+            <form
+              class="main-body__group__bottom__form"
+              id="main-body__group__bottom__form"
+            >
+              <div class="labelsss">
+                <input
+                  type="radio"
+                  name="Получение"
+                  id="main-body__group__bottom__form"
+                />
+                <label for="Получение"
+                  >Оплата при получении наличными или картой</label
+                >
+              </div>
+              <div class="labelsss">
+                <input
+                  type="radio"
+                  name="Карта"
+                  id="main-body__group__bottom__form"
+                  checked
+                />
+                <label for="Карта">Оплата банковской картой онлайн</label>
+              </div>
+            </form>
           </div>
         </div>
       </div>
