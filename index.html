@@ -3,9 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400"
+      rel="stylesheet"
+    />
+
     <title>Document</title>
   </head>
   <body>
-    123
+    <div class="container">
+      <div class="main-body">
+        <div class="main-body__group">
+          <div class="main-body__group__top">
+            <div class="main-body__group__top__text">Данные получателя</div>
+            <div class="main-body__group__top__ellipses">
+              <div class="main-body__group__top__ellipses__xx">
+                <input type="text" placeholder="Фамилия" />
+              </div>
+              <div class="main-body__group__top__ellipses__xx">
+                <input type="text" placeholder="Имя" />
+              </div>
+              <div class="main-body__group__top__ellipses__xx">
+                <input type="text" placeholder="Отчество" />
+              </div>
+              <div class="main-body__group__top__ellipses__xx">
+                <input type="number" placeholder="Номер телефона" />
+              </div>
+            </div>
+            <div class="pp">
+              По этому номеру телефона мы с вяжемся с вами для подтверждения
+              заказа
+            </div>
+          </div>
+          <div class="main-body__group__middle">
+            <div class="main-body__group__middle__input">
+              <input type="email" placeholder="E-mail" />
+            </div>
+            <div class="pp__middple">
+              <p>
+                На эту почту вам придет письмо с составом заказа, а так же
+                трэк-номер для его отслеживания
+              </p>
+            </div>
+            <div class="main-body__group__middle__idk">
+              <input
+                type="checkbox"
+                name="messages"
+                id="main-body__group__middle__idk"
+                checked
+                aria-label="Подписаться на рассылку новинок и акций"
+              />
+            </div>
+          </div>
+          <div class="main-body__group__bottom">
+            <div class="main-body__group__top__text">Способ оплаты</div>
+            <form
+              class="main-body__group__bottom__form"
+              id="main-body__group__bottom__form"
+            >
+              <div class="labelsss">
+                <input
+                  type="radio"
+                  name="Получение"
+                  id="main-body__group__bottom__form"
+                />
+                <label for="Получение"
+                  >Оплата при получении наличными или картой</label
+                >
+              </div>
+              <div class="labelsss">
+                <input
+                  type="radio"
+                  name="Карта"
+                  id="main-body__group__bottom__form"
+                  checked
+                />
+                <label for="Карта">Оплата банковской картой онлайн</label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
