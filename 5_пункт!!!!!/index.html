@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-body">
+        <div class="main-body__first">
+          <div class="check">
+            <input type="checkbox" name="change" id="check" />
+          </div>
+          <div class="check2">
+            <input type="checkbox" name="change2" id="check2" checked />
+          </div>
+          <div class="check3">
+            <input
+              type="checkbox"
+              name="change2"
+              id="check2"
+              checked
+              disabled
+            />
+          </div>
+        </div>
+        <div class="main-body__second">
+          <div class="main-body__second__group">
+            <div>
+              Это группа радиокнопок - только одна из них может быть отмечена!
+            </div>
+            <div class="main-body__second__group__radio1">
+              <input type="radio" name="radio" id="radio1" />
+            </div>
+            <div class="main-body__second__group__radio1">
+              <input type="radio" name="radio" id="radio2" />
+            </div>
+          </div>
+        </div>
+        <button>Отправить на сервер</button>
+      </div>
+    </div>
+  </body>
+</html>
