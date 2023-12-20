@@ -1,5 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/futura-pt");
-/**/
+
 @mixin displayColumn {
   display: flex;
   flex-direction: column;
@@ -513,4 +513,5 @@
       font-size: 6px;
       line-height: 15px;
     }
-  }
+  }
+}
